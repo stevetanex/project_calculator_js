@@ -1,123 +1,112 @@
-body{
-    margin: 0%;
-    padding: 0px;
-    background-color: rgb(193, 199, 204);
-
+body {
+  margin: 0%;
+  padding: 0px;
+  background-color: rgb(193, 199, 204);
 }
-.main{
-    width:40rem;
-    height:40rem;
-    background-color: rgb(182, 188, 188);
-    justify-self: center;
-    margin-top: 6rem;
-    position: relative;
-    border: .25rem solid;
-    overflow: hidden;
-    box-shadow: 20px 20px 5px 0 rgba(0,0,0,0.3);
+.main {
+  width: 40rem;
+  height: 40rem;
+  background-color: rgb(182, 188, 188);
+  justify-self: center;
+  margin-top: 6rem;
+  position: relative;
+  border: 0.25rem solid;
+  overflow: hidden;
+  box-shadow: 20px 20px 5px 0 rgba(0, 0, 0, 0.3);
 }
-#heading{
-   
-    width:40rem;
-    height:3rem;
-    background-color: rgb(74, 141, 119);
-    overflow: hidden;
-    justify-content: center;
-    padding-left:0%;
-
+#heading {
+  width: 40rem;
+  height: 3rem;
+  background-color: rgb(74, 141, 119);
+  overflow: hidden;
+  justify-content: center;
+  padding-left: 0%;
 }
-#heading_name{
-    color: aliceblue;
-    justify-self: center;
-    margin-top: .5rem;
+#heading_name {
+  color: aliceblue;
+  justify-self: center;
+  margin-top: 0.5rem;
 }
-.input1{
-    position: absolute;
-    width: 40rem;
-    height: 12rem;
-    background-color: rgb(255, 255, 255);
-
+.input1 {
+  position: absolute;
+  width: 40rem;
+  height: 12rem;
+  background-color: rgb(255, 255, 255);
 }
-.con{
-    position: relative;
-    width: 40rem;
-    height: 25rem;
-    top:15.4rem;
+.con {
+  position: relative;
+  width: 40rem;
+  height: 25rem;
+  top: 15.4rem;
 }
-.row1{
-    position: absolute;
-    width: 40rem;
-    height: 5rem;
-    top: -3rem;
+.row1 {
+  position: absolute;
+  width: 40rem;
+  height: 5rem;
+  top: -3rem;
 }
-.row2{
-    position: absolute;
-    width: 40rem;
-    height: 5rem;
-    top: 2.1rem;
-    
+.row2 {
+  position: absolute;
+  width: 40rem;
+  height: 5rem;
+  top: 2.1rem;
 }
-.row3{
-    position: absolute;
-    width: 40rem;
-    height: 4.8rem;
-    top: 7.2rem;
-    
+.row3 {
+  position: absolute;
+  width: 40rem;
+  height: 4.8rem;
+  top: 7.2rem;
 }
-.row4{
-    position: absolute;
-    width: 40rem;
-    height: 4.8rem;
-    top: 12.2rem;
-    
+.row4 {
+  position: absolute;
+  width: 40rem;
+  height: 4.8rem;
+  top: 12.2rem;
 }
-.row5{
-    position: absolute;
-    width: 40rem;
-    height: 4.8rem;
-    top: 17.3rem;
-   
+.row5 {
+  position: absolute;
+  width: 40rem;
+  height: 4.8rem;
+  top: 17.3rem;
 }
-.col1,.button1{
-    position: absolute;
-    width: 10rem;
-    height: 5rem;
-    border: .1rem solid;
-    background-color: rgb(182, 188, 188);
-
+.col1,
+.button1 {
+  position: absolute;
+  width: 10rem;
+  height: 5rem;
+  border: 0.1rem solid;
+  background-color: rgb(182, 188, 188);
 }
-.col2{
-    position: absolute;
-    width: 10rem;
-    height: 5rem;
-    border: .1rem solid;
-    left:10rem
-
+.col2 {
+  position: absolute;
+  width: 10rem;
+  height: 5rem;
+  border: 0.1rem solid;
+  left: 10rem;
 }
-.col3{
-    position: absolute;
-    width: 10rem;
-    height: 5rem;
-    border: .1rem solid;
-    left:20rem
-
+.col3 {
+  position: absolute;
+  width: 10rem;
+  height: 5rem;
+  border: 0.1rem solid;
+  left: 20rem;
 }
-.col4{
-    position: absolute;
-    width: 10rem;
-    height: 5rem;
-    border: .1rem solid;
-    left:30rem
-
+.col4 {
+  position: absolute;
+  width: 10rem;
+  height: 5rem;
+  border: 0.1rem solid;
+  left: 30rem;
 }
-.opert{
-    background-color: rgb(154, 89, 214);
+.opert {
+  background-color: rgb(154, 89, 214);
 }
-.equal{
-    background-color: blueviolet;
+.equal {
+  background-color: blueviolet;
 }
-.button1:hover{
-    color: aliceblue;
+.button1:hover {
+  color: aliceblue;
 }
-.input1size{
-    font-size: xx-large;
+.input1size {
+  font-size: xx-large;
 }

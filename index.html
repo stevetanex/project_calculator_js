@@ -1,55 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>calulator_project</title>
-    <link rel="stylesheet" href="/javascript/calculator/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="stylesheet" href="/javascript/calculator/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <div class="main">
-       <div id="heading"> 
-            <h1 id="heading_name">BASIC CALCULATOR</h1>
-       </div>
-       <div class="input1">
-        <input  id="cal" class="input1 input1size" type="text" placeholder="0" readonly>
-       </div>
-       <div class="con">
+      <div id="heading">
+        <h1 id="heading_name">BASIC CALCULATOR</h1>
+      </div>
+      <div class="input1">
+        <input
+          id="cal"
+          class="input1 input1size"
+          type="text"
+          placeholder="0"
+          readonly
+        />
+      </div>
+      <div class="con">
         <div class="row1">
-            <div class="col1"><button onclick="todisplay('(')" class="button1"><h1>(</h1></button></div>
-            <div class="col2"><button onclick="todisplay(')')" class="button1"><h1>)</h1></button></div>
-            <div class="col3"><button onclick="calclear()" class="button1"><h1><i class="fa-solid fa-delete-left"></i></h1></button></div>
-            <div class="col4"><button onclick="todisplay('%')" class="button1 opert"><h1>%</h1></button></div>
+          <div class="col1">
+            <button onclick="todisplay('(')" class="button1"><h1>(</h1></button>
+          </div>
+          <div class="col2">
+            <button onclick="todisplay(')')" class="button1"><h1>)</h1></button>
+          </div>
+          <div class="col3">
+            <button onclick="calclear()" class="button1">
+              <h1><i class="fa-solid fa-delete-left"></i></h1>
+            </button>
+          </div>
+          <div class="col4">
+            <button onclick="todisplay('%')" class="button1 opert">
+              <h1>%</h1>
+            </button>
+          </div>
         </div>
         <div class="row2">
-            <div class="col1"><button onclick="todisplay('7')" class="button1"><h1>7</h1></button></div>
-            <div class="col2"><button onclick="todisplay('8')"class="button1"><h1>8</h1></button></div>
-            <div class="col3"><button onclick="todisplay('9')"class="button1"><h1>9</h1></button></div>
-            <div class="col4"><button onclick="todisplay('*')"class="button1 opert"><h1>X</h1></button></div>
+          <div class="col1">
+            <button onclick="todisplay('7')" class="button1"><h1>7</h1></button>
+          </div>
+          <div class="col2">
+            <button onclick="todisplay('8')" class="button1"><h1>8</h1></button>
+          </div>
+          <div class="col3">
+            <button onclick="todisplay('9')" class="button1"><h1>9</h1></button>
+          </div>
+          <div class="col4">
+            <button onclick="todisplay('*')" class="button1 opert">
+              <h1>X</h1>
+            </button>
+          </div>
         </div>
         <div class="row3">
-            <div class="col1"><button onclick="todisplay('4')"class="button1"><h1>4</h1></button></div>
-            <div class="col2"><button onclick="todisplay('5')"class="button1"><h1>5</h1></button></div>
-            <div class="col3"><button onclick="todisplay('6')"class="button1"><h1>6</h1></button></div>
-            <div class="col4"><button onclick="todisplay('-')"class="button1 opert"><h1>-</h1></button></div>
+          <div class="col1">
+            <button onclick="todisplay('4')" class="button1"><h1>4</h1></button>
+          </div>
+          <div class="col2">
+            <button onclick="todisplay('5')" class="button1"><h1>5</h1></button>
+          </div>
+          <div class="col3">
+            <button onclick="todisplay('6')" class="button1"><h1>6</h1></button>
+          </div>
+          <div class="col4">
+            <button onclick="todisplay('-')" class="button1 opert">
+              <h1>-</h1>
+            </button>
+          </div>
         </div>
         <div class="row4">
-            <div class="col1"><button onclick="todisplay('3')"class="button1"><h1>3</h1></button></div>
-            <div class="col2"><button onclick="todisplay('2')"class="button1"><h1>2</h1></button></div>
-            <div class="col3"><button onclick="todisplay('1')"class="button1"><h1>1</h1></button></div>
-            <div class="col4"><button onclick="todisplay('+')" class="button1 opert"><h1>+</h1></button></div>
+          <div class="col1">
+            <button onclick="todisplay('3')" class="button1"><h1>3</h1></button>
+          </div>
+          <div class="col2">
+            <button onclick="todisplay('2')" class="button1"><h1>2</h1></button>
+          </div>
+          <div class="col3">
+            <button onclick="todisplay('1')" class="button1"><h1>1</h1></button>
+          </div>
+          <div class="col4">
+            <button onclick="todisplay('+')" class="button1 opert">
+              <h1>+</h1>
+            </button>
+          </div>
         </div>
         <div class="row5">
-            <div class="col1"><button onclick="todisplay('0')"class="button1"><h1>0</h1></button></div>
-            <div class="col2"><button onclick="todisplay('.')"class="button1"><h1>.</h1></button></div>
-            <div class="col3"><button onclick="todisplay('**')"class="button1"><h1>exp</h1></button></div>
-            <div class="col4"><button onclick="equal()" class="button1 equal"><h1>=</h1></button></div>
+          <div class="col1">
+            <button onclick="todisplay('0')" class="button1"><h1>0</h1></button>
+          </div>
+          <div class="col2">
+            <button onclick="todisplay('.')" class="button1"><h1>.</h1></button>
+          </div>
+          <div class="col3">
+            <button onclick="todisplay('**')" class="button1">
+              <h1>experience</h1>
+            </button>
+          </div>
+          <div class="col4">
+            <button onclick="equal()" class="button1 equal"><h1>=</h1></button>
+          </div>
         </div>
-       </div>
-
+      </div>
     </div>
-    
-</body>
-<script src="./caculator.js"></script>
+  </body>
+  <script src="./caculator.js"></script>
 </html>
